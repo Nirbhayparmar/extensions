@@ -1,10 +1,9 @@
 - first only make an extension that will disable the trending bar in the twitter to test.
 - first task is to make chrome extension that can save the tweets in database and shows it in extension UI.
 - aria-label="Timeline: Trending now" (for twitter trending bar)
-
--- https://developer.chrome.com/docs/extensions/mv3/manifest/activeTab/
--- https://developer.chrome.com/docs/extensions/mv3/content_scripts/
--- first I need to understand the chrome API and the file structures.
+  - https://developer.chrome.com/docs/extensions/mv3/manifest/activeTab/
+  - https://developer.chrome.com/docs/extensions/mv3/content_scripts/
+  - first I need to understand the chrome API and the file structures.
 
 ---
 
