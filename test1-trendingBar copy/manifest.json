@@ -1,0 +1,26 @@
+{
+	"manifest_version": 3,
+	"name": "Twittools",
+	"version": "0.0.1",
+	"action": {
+		"default_title": "Click Me",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab", "scripting"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"description": "This is an extension to disable the twitter trending section. now for testing.",
+	"icons": {
+		"16": "images/Twitter.png",
+		"32": "images/Twitter.png",
+		"48": "images/Twitter.png",
+		"128": "images/Twitter.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://*.nirbhayparmar.com/*"],
+			"js": ["content-script.js"]
+		}
+	]
+}
