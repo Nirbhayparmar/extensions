@@ -18,3 +18,10 @@ on 05/10/2022
 
 - I experimented with manipluating the popup.html by clicking the button and saving the link of the page on the extension popup.
 - Next time I want to experiment with local storage to save the links I have clicked/saved. It is like building a note taking application but for chrome extensions.
+
+---
+
+on 11/10/2022
+
+- I experimented with message passing between popup.js and content script, and read about local storage and chrome storage api.
+- Next time I will try about actually using storage to store links.

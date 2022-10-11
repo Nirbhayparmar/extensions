@@ -6,7 +6,7 @@
 		"default_title": "Click Me",
 		"default_popup": "popup.html"
 	},
-	"permissions": ["activeTab", "scripting", "tabs"],
+	"permissions": ["activeTab", "scripting", "tabs", "storage"],
 	"background": {
 		"service_worker": "background.js"
 	},
