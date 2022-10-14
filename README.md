@@ -25,3 +25,17 @@ on 11/10/2022
 
 - I experimented with message passing between popup.js and content script, and read about local storage and chrome storage api.
 - Next time I will try about actually using storage to store links.
+
+---
+
+on 14/10/2022
+
+- I tryed local storage but it is not working, I think.
+- But I tried message passing again but this time it is creating a lot of errors. So I searched it on the internet and finds a video - link is here (link)[https://www.youtube.com/watch?v=qfdaikjP4Tg], it helped me to solve this issue, **_issue is still not solved_**.
+- I tried using async and await to solve this issue, initially, I think that issue is resolved but it is not, so I might try different solution.
+- The problem is when the site stays idle, then the reciever end(contentscript.js) is not loaded so the sender(popup.js) is not able to find the reciever, and returns undefined and throw the error that receiver end is not found.
+- things to learn now
+  - what is promises and how are they helping us to work asynchronously
+  - learn about async and await syntax and asynchronus JavaScript in detail.
+  - read about message passing in chrome extensions in detail from internet
+  - learn about local storage and how to access them and how to check them
