@@ -39,3 +39,12 @@ on 14/10/2022
   - learn about async and await syntax and asynchronus JavaScript in detail.
   - read about message passing in chrome extensions in detail from internet
   - learn about local storage and how to access them and how to check them
+
+---
+
+on 2/11/2022
+
+- I again tried running the extension, it is working(the message passing part), I think the problem I was facing earlier is related to some other issue, but I can deal with it later if it arises again, because in general problem is related to the content script is now loaded when the message is sent so I have added asynchronus javascript that will handle that part(I have to learn more about asynchronus javascript but still...).
+- Now I should try showing the stored value(via chrome.storage) in extension popup.
+  - in making that I will have to know more about read function of chrome.storage and its scope related to contentscript.js(if is accesible from contentscript.js and popup.js also).
+  - then using js dome manipluation I can add html element in popup html.
