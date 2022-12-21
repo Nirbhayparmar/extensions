@@ -1,0 +1,34 @@
+{
+	"manifest_version": 3,
+	"name": "Test",
+	"version": "0.0.1",
+	"action": {
+		"default_title": "Click Me",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab", "scripting", "tabs"],
+	"host_permissions": [
+		"https://www.nirbhayparmar.com/",
+		"https://www.jimmytaravia.com/"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"description": "This is an extension for testing purpose.",
+	"icons": {
+		"16": "images/Twitter.png",
+		"32": "images/Twitter.png",
+		"48": "images/Twitter.png",
+		"128": "images/Twitter.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://*.*.com/"
+				// "https://*.nirbhayparmar.com/*",
+				// "https://*.jimmytaravia.com/"
+			],
+			"js": ["content-script.js"]
+		}
+	]
+}

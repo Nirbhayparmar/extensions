@@ -1,0 +1,20 @@
+{
+	"manifest_version": 3,
+	"name": "Test4linkStorage",
+	"version": "0.0.1",
+	"action": {
+		"default_title": "Click Me",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab", "scripting", "tabs", "storage"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"description": "This is an extension for testing purpose of selecting urls of the website and to store them on local storage",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content-script.js"]
+		}
+	]
+}
