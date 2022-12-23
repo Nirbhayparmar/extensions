@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "Test3linkSelect",
+	"name": "Test4linkStorage",
 	"version": "0.0.1",
 	"action": {
 		"default_title": "Click Me",
@@ -10,7 +10,7 @@
 	"background": {
 		"service_worker": "background.js"
 	},
-	"description": "This is an extension for testing purpose of selecting urls of the website",
+	"description": "This is an extension for testing purpose of selecting urls of the website and to store them on local storage",
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
