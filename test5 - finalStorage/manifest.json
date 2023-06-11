@@ -3,10 +3,10 @@
 	"name": "Test4linkStorage",
 	"version": "0.0.1",
 	"action": {
-		"default_title": "Click Me",
+		"default_title": "PageSaver",
 		"default_popup": "popup.html"
 	},
-	"permissions": ["activeTab", "scripting", "tabs", "storage"],
+	"permissions": ["activeTab", "scripting", "tabs", "storage", "contextMenus"],
 	"background": {
 		"service_worker": "background.js"
 	},
@@ -16,5 +16,8 @@
 			"matches": ["<all_urls>"],
 			"js": ["content-script.js"]
 		}
-	]
+	],
+	"icons": {
+		"16": "images/Twitter.png"
+	}
 }

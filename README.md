@@ -59,3 +59,10 @@ on 23/12/2022
   3. saveLinks()
   4. showLinks()
 - Now next task is to add a button to remove links. There can be many ways to add that functionality, but I am thinking about filter using tabId and then remove that perticular link.
+
+---
+
+on 24/12/2022
+
+- Today, I thought about the implementation of delete functionality for the extension.
+- but i have to figure out how to manipulate the status of links when we click the checkbox of that link.
